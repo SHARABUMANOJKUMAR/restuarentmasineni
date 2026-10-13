@@ -1,0 +1,22 @@
+{
+  "last_updated": "2026-10-13T20:43:00+05:30",
+  "completed": [
+    "Scaffold Vite React project with design tokens matching style guide",
+    "Implemented complete 5-page multi-page website: Home, About Us, Menu, Gallery, Contact Us",
+    "Configured centralized menuData and galleryData with Indian cuisine specialties",
+    "Replaced 'Tandoori Murgh' with 'Tandoori Chicken' and incorporated user-provided img2 photography across Menu, Homepage, and About Us",
+    "Created Google Sheet database schema with exact column headers (A through I)",
+    "Engineered production-grade Google Apps Script (google-apps-script/Code.gs) with automated row logging and CORS-friendly JSON handling",
+    "Built colorful, highly attractive, mobile-responsive HTML email template sent automatically to customers upon form submission",
+    "Integrated Google Apps Script Webhook into contactService.js with graceful fallback"
+  ],
+  "in_progress": [],
+  "pending": [],
+  "decisions": [
+    "Use locked palette: Warm Cream (#FFF8EC), Tomato Red (#F45135), Fresh Orange (#FF9F43), Golden Yellow (#FFD166), Leaf Green (#70AD47), White (#FFFFFF), Soft Peach (#FFE5D4)",
+    "User-provided img2 (tandoori-chicken.png) saved in public and assets directories and linked to Tandoori Chicken dish",
+    "Google Sheets columns standardized: Timestamp, Inquiry ID, Full Name, Email Address, Phone Number, Subject, Message, Status, Follow-up Notes",
+    "Google Apps Script deployed as Web App with Anyone access, sending responsive branded HTML emails via MailApp"
+  ],
+  "blockers": []
+}
