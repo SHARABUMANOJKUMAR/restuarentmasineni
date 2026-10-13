@@ -19,7 +19,7 @@ export const RESTAURANT_CONFIG = {
     email: 'info@masinenifrnd.com',
     reservationsEmail: 'reservations@masinenifrnd.com',
     // Google Apps Script Web App Endpoint for Google Sheets & Email Automation
-    googleScriptUrl: import.meta.env.VITE_GOOGLE_SCRIPT_URL || ''
+    googleScriptUrl: import.meta.env.VITE_GOOGLE_SCRIPT_URL || 'https://script.google.com/macros/s/AKfycbw1fNkVA96Twf_fMWDNbhWNUmIbrULTY56xqFur52PX_4xSsQhSccHtvlJm6K_6LnaX/exec'
   },
   hours: {
     weekdays: '11:30 AM – 11:00 PM',
